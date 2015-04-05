@@ -1,0 +1,26 @@
+{
+  "name": "recursive-escape",
+  "version": "1.0.0",
+  "description": "Recursivly escape an object or array for use in HTML",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wesleytodd/recursive-escape.git"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "keywords": [
+    "escape",
+    "html",
+    "recursive"
+  ],
+  "author": "Wes Todd",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.2.1"
+  },
+  "dependencies": {
+    "lodash.escape": "^3.0.0"
+  }
+}
