@@ -8,7 +8,9 @@
     "url": "git://github.com/wesleytodd/recursive-escape.git"
   },
   "scripts": {
-    "test": "happiness && mocha"
+    "test": "happiness && mocha",
+	"prepublish": "npm test",
+	"postoublish": "git push && git push --tags"
   },
   "keywords": [
     "escape",
