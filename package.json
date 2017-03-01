@@ -8,7 +8,7 @@
     "url": "git://github.com/wesleytodd/recursive-escape.git"
   },
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "happiness && mocha"
   },
   "keywords": [
     "escape",
@@ -18,6 +18,7 @@
   "author": "Wes Todd",
   "license": "ISC",
   "devDependencies": {
+    "happiness": "^7.1.2",
     "mocha": "^2.2.1"
   },
   "dependencies": {
