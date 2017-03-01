@@ -1,6 +1,6 @@
 {
   "name": "recursive-escape",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Recursivly escape an object or array for use in HTML",
   "main": "index.js",
   "repository": {
@@ -9,8 +9,8 @@
   },
   "scripts": {
     "test": "happiness && mocha",
-	"prepublish": "npm test",
-	"postoublish": "git push && git push --tags"
+    "prepublish": "npm test",
+    "postoublish": "git push && git push --tags"
   },
   "keywords": [
     "escape",
