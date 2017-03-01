@@ -25,7 +25,7 @@ var e = module.exports = function (input) {
 	} else if (type === 'number' || type === 'boolean') {
 		output = input;
 	} else {
-		throw new TypeError('Cannot escape type ' + typeof input);
+		output = input;
 	}
 
 	return output;

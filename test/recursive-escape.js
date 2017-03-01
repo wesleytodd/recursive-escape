@@ -103,15 +103,6 @@ describe('recursive-escape', function () {
 		assert.equal(_escape(a)[0], escapedHtmlString);
 	});
 
-	it('should throw on unsupported types', function () {
-		assert.throws(function () {
-			_escape(function () {});
-		});
-		assert.throws(function () {
-			_escape(function () {});
-		});
-	});
-
 	it('should return null or undefined when passed either', function () {
 		assert.equal(_escape(), undefined);
 		assert.equal(_escape(null), null);
